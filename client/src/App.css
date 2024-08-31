@@ -13,7 +13,7 @@
 
 body{
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(19,57,106,1) 100%);
+  background: linear-gradient(90deg, rgba(52, 13, 138, 1) 25%, rgba(19, 7, 46, 1) 75%);
 }
 
 /* .loader {
@@ -49,7 +49,7 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 50%, rgba(19, 57, 106, 1) 100%);
+  background: linear-gradient(90deg, rgba(52, 13, 138, 1) 25%, rgba(19, 7, 46, 1) 75%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,19 +69,20 @@ body{
 }
 
 .pl__ring {
-  stroke: hsla(0, 10%, 10%, 0.1);
+  stroke: hsla(258deg, 74%, 10%, 1);
   transition: stroke 0.3s;
 }
 
 .pl__worm {
   animation-name: worm;
   animation-timing-function: cubic-bezier(0.42, 0.17, 0.75, 0.83);
+  stroke: hsla(259deg, 83%, 30%, 1)
 }
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   .pl__ring {
-    stroke: hsla(0, 10%, 90%, 0.1);
+    stroke: hsla(258deg, 74%, 10%, 1);
   }
 }
 
@@ -142,7 +143,7 @@ body{
 
  .landing{
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(19,57,106,1) 100%);
+  background: linear-gradient(90deg, rgba(52, 13, 138, 1) 25%, rgba(19, 7, 46, 1) 75%);
   position: absolute;
   top: 0;
   left: 0;
@@ -156,7 +157,7 @@ body{
 } 
 
 .logos{
-    height: 11rem;
+    height: 14rem;
   }
 
   /* Landing Page */
@@ -190,11 +191,11 @@ body{
     color: #121516;
     background-color: #ffffff;
     border-radius: 1rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 700;
-    position: absolute;
-    top: 2rem;
-    right:2rem;
+    position: relative;
+    bottom: 15rem;
+    right: 5rem;
     /* margin-left: 13rem; */
     
   }
@@ -202,22 +203,22 @@ body{
   #landing-btn {
     align-items: center;
     appearance: none;
-    background-color: #FCFCFD;
-    border-radius: 4px;
+    background-color: #9898af;
+    border-radius: 6px;
     border-width: 0;
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
     box-sizing: border-box;
     color: #36395A;
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
-    height: 48px;
+    font-family: Helvetica, sans-serif;
+    height: 60px;
     justify-content: center;
     line-height: 1;
     list-style: none;
     overflow: hidden;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: relative;
     text-align: left;
     text-decoration: none;
@@ -227,17 +228,17 @@ body{
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow,transform;
-    font-size: 18px;
+    font-size: 30px;
 
         padding: 1rem 2.5rem;
     color: #121516;
     background-color: #ffffff;
     border-radius: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     position: absolute;
-    top: 2rem;
-    right:2rem;
+    bottom: 12rem;
+    right:35rem;
   }
   
   #landing-btn:focus {
@@ -250,7 +251,7 @@ body{
   }
   
   #landing-btn:active {
-    box-shadow: #D6D6E7 0 3px 7px inset;
+    box-shadow: #4b4ba9 0 3px 7px inset;
     transform: translateY(2px);
   }
 
@@ -264,6 +265,7 @@ body{
     display: flex;
     flex-direction: column;
     color: white;
+    font-family: 'Karla', sans-serif;
   }
   
   .main-text>h1{
