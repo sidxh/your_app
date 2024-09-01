@@ -24,7 +24,7 @@ import Misc from './pages/Misc';
 import Header from "./components/Header"
 import SkillsPage from './pages/SkillsPage';
 import DonationForm from './pages/Donation';
-
+import JobPage from './pages/JobPortal';
 
 const ScrollToTop = () => {
     const { pathname } = useLocation();
@@ -96,7 +96,7 @@ function App() {
                     </Route>
 
                         <Route path="/explore/:category/:skill" element={<SkillsPage />}/>
-                    <Route path="/opportunities" element={<Opportunities />} />
+                    <Route path="/opportunities" element={<JobPage />} />
                     <Route path="/donation" element={<DonationForm />} />
                     <Route path="/events" element={<Events />} />
             </Route>

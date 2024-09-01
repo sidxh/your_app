@@ -12,7 +12,7 @@ const styles = {
       maxWidth: '900px',
       margin: '10 auto',
       fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
-      color: '#FFFFFF',
+
     },
     section: {
       marginBottom: '24px',
@@ -145,12 +145,12 @@ const styles = {
 
     return (
       <table style={{marginLeft:'auto', marginRight:'auto',
-        ...styles.form, padding: '3rem', marginTop:'4rem'}}>
+        ...styles.form, padding: '3rem', marginTop:'4rem', boxShadow: '0px 0px 10px ',}}>
         <tr>
           <td style={{paddingTop:'10px', paddingBottom: '20px', paddingLeft:'30px', paddingRight:'40px', textAlign:'center'}}> 
-<h2>
+<h1>
               Help us do more
-            </h2>
+            </h1>
             <p>
             Your contributions make a significant impact on our programs, facilities, and student support. If every alumni contributes $10 monthly, we can ensure continued excellence and growth. Your support is crucial for us to thrive and make a difference in the lives of our students.
             </p>
