@@ -13,7 +13,7 @@
 
 body{
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(52, 13, 138, 1) 30%, rgba(19, 7, 46, 1) 70%);
+  background: linear-gradient(90deg, rgb(52, 24, 114) 10%, rgba(19, 7, 46, 1) 70%);
 }
 
 /* .loader {

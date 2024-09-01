@@ -41,14 +41,14 @@ const Header = () => {
 
           <NavLink
             id="shift_nav"
-            to="/reach-out"
+            to="/donation"
             className={({ isActive }) => (isActive ? 'active' : 'inactive')}
           >
-            Donations
+            donations
           </NavLink>
           <NavLink
             id="shift_nav"
-            to="/Events"
+            to="/events"
             className={({ isActive }) => (isActive ? 'active' : 'inactive')}
           >
             Events

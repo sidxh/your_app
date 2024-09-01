@@ -23,6 +23,7 @@ import Media from './pages/Media';
 import Misc from './pages/Misc';
 import Header from "./components/Header"
 import SkillsPage from './pages/SkillsPage';
+import DonationForm from './pages/Donation';
 
 
 const ScrollToTop = () => {
@@ -96,7 +97,7 @@ function App() {
 
                         <Route path="/explore/:category/:skill" element={<SkillsPage />}/>
                     <Route path="/opportunities" element={<Opportunities />} />
-                    <Route path="/reach-out" element={<ReachOut />} />
+                    <Route path="/donation" element={<DonationForm />} />
                     <Route path="/events" element={<Events />} />
             </Route>
         </Routes>

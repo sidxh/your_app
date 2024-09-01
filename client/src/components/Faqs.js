@@ -5,7 +5,7 @@ const faqs = [
   {
     id: 1,
     header: 'What is AlumniUS?',
-    text: 'ConnectLNM is a platform designed to bridge the gap between current students and alumni of our university. It allows students to seek guidance and support from alumni who have expertise in various domains, helping them connect and learn from experienced professionals.',
+    text: 'AlumniUS is a platform designed to bridge the gap between current students and alumni of our university. It allows students to seek guidance and support from alumni who have expertise in various domains, helping them connect and learn from experienced professionals.',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const faqs = [
     header: 'How do I search for mentors on AlumniUS?',
     text: (
       <span>
-        You can easily search for mentors on ConnectLNM by heading to the{' '}
+        You can easily search for mentors on AlumniUS by heading to the{' '}
         <Link to="/explore">Explore</Link> section and entering the specific skill or domain you need help with. We will provide you with a list of alumni and seniors who possess expertise in that particular area, along with their contact information for further communication.
       </span>
     ),
