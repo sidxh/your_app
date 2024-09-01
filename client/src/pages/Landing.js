@@ -15,15 +15,15 @@ const Landing = () => {
               <div className='new_main'>
             <img className="logos" src={require('../logos.png')} alt='' />
           <div className="main-text">
-              <h1>ConnectLNM</h1>
-              <p id="landing-p-desk">Upskill By Harnessing the Power of Community!</p>
+              <h1>AlumniUS</h1>
+              <p id="landing-p-desk">Where Alumni and students hangout...</p>
         </div>
     </div>
-    <p id="landing-p-mob">Upskill By Harnessing the Power of Community!</p>
+    <p id="landing-p-mob">Where Alumni and students hangout...</p>
 
     
     </div> 
-    <Link id="landing-btn" to="/vision">Get Started</Link>         
+    <Link id="landing-btn" to="/vision">Let's Dive In</Link>         
       </div>
   )
 }

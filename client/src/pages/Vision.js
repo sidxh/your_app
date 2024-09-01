@@ -1,13 +1,23 @@
 import React from "react"
 import Faqs from "../components/Faqs"
+import { ReactTyped } from "react-typed";
 
 export default function Vision(){
     return(
         <div className="vision">
-            <h1>Why ConnectLNM?</h1>
+            <h1>{" "}
+        <ReactTyped
+          strings={["Alumni", "Students", "Institutes", "All connected"]}
+          typeSpeed={90}
+          loop
+          backSpeed={25}
+          cursorChar="."
+          showCursor={true}
+          
+        /></h1>
             <div className="vision_content">
                 <p>🚨At our university, we've noticed a gap between juniors and seniors/alumni in terms of expertise and guidance in different fields. There are many students who want to seek help in various domains, but they often don't know who to reach out to. On the other hand, there are many seniors and alumni who have valuable experience and knowledge in these fields, but they don't always have an easy way to connect with students who need their help. That's why we created ConnectLNM. Our platform serves as an online directory of experts within our university, providing an easy and user-friendly way for juniors to find seniors and alumni with the specific skills and expertise they need.</p>
-                <img src={require("../images/mentorship.png")} alt=""/>
+                <img src={require("../images/gradicon.png")} alt=""/>
             </div>
             <div className="vision_content" id="vision_content2">
                 <img src={require("../images/mentor2.png")} alt=""/>

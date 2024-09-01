@@ -63,7 +63,7 @@ const Main = () => {
                 <Route path="misc" element={<Misc />} />
             </Route>
             <Route path="/opportunities" element={<Opportunities />} />
-            <Route path="/reach-out" element={<ReachOut />} />
+            <Route path="/donation" element={<DonationForm />} />
         </Routes>
     </BrowserRouter>
   )
